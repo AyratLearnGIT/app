@@ -1,1 +1,1 @@
-const v = 'v1'
+const v = 'v1.1'
