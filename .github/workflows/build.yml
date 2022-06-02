@@ -2,7 +2,7 @@ name: build
 on: [push]
 env:
   HELLO: Hello
-  # SOME_SECRET: ${{ secrets.SOME_SECRET }}
+  SOME_SECRET: ${{ secrets.SOME_SECRET }}
 jobs:
   build:
     runs-on: ubuntu-latest
