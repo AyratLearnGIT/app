@@ -2,7 +2,7 @@ name: build
 on: [push]
 env:
   HELLO: Hello
-  SOME_SECRET: ${{ secrets.SOME_SECRET }}
+  # SOME_SECRET: ${{ secrets.SOME_SECRET }}
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,5 +12,5 @@ jobs:
         with:
           node-version: '14'
       - run: echo $HELLO
-      - run: echo $SOME_SECRET
+      # - run: echo $SOME_SECRET
       - run: node secret.js
