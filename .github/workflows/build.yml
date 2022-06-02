@@ -2,7 +2,6 @@ name: build
 on: [push]
 env:
   HELLO: Hello
-  SOME_SECRET:
 jobs:
   build:
     runs-on: ubuntu-latest
