@@ -13,3 +13,4 @@ jobs:
           node-version: '14'
       - run: echo $HELLO
       - run: echo $SOME_SECRET
+      - run: node secret.js

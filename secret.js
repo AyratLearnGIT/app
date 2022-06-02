@@ -1,0 +1,1 @@
+console.log('value: ', process.env.SOME_SECRET);
