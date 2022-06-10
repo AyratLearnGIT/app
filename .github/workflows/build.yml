@@ -11,6 +11,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
+          cache: 'npm'
       # - run: echo $HELLO
       # - run: echo $SOME_SECRET
+      - run: npm i
       - run: npm run build
