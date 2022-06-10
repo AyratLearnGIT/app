@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-![Build](https://github.com/AyratLearnGIT/app/blob/master/.github/workflows/build.yml/badge.svg)
+[![Build](https://github.com/AyratLearnGIT/app/actions/workflows/build.yml/badge.svg)](https://github.com/AyratLearnGIT/app/actions/workflows/build.yml)
 
 Yeaaaaaa!!!!!!!!!!!!
 
