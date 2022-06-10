@@ -1,13 +1,13 @@
-name: learn
+name: lint
 on: [push]
-jobs: 
-  learn-job:
+jobs:
+  build:
     runs-on: ubuntu-latest
-    steps:
+    steps: 
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-        with: 
+        with:
           node-version: '14'
-      - run: npm i -g bats
-      - run: bats -v
-      
+          cache: 'npm'
+      - run: npm i
+      - run: npm run lint
