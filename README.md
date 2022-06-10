@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+![Build](https://github.com/AyratLearnGIT/app/workflows/main.yml/badge.svg)
+
 Yeaaaaaa!!!!!!!!!!!!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
