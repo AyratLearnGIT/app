@@ -1,26 +1,29 @@
 module.exports = {
-    "env": {
-        "browser": true,
-        node: true,
-        "es2021": true
+    env: {
+      commonjs: true,
+      node: true,
+      browser: true,
+      es6: true,
+      jest: true,
     },
-    "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended"
-    ],
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "ecmaVersion": "latest",
-        "sourceType": "module",
-        "allowImportExportEverywhere": true
+    extends: ["eslint:recommended", "plugin:react/recommended"],
+    globals: {},
+    parser: "babel-eslint",
+    parserOptions: {
+      ecmaFeatures: {
+        jsx: true,
+      },
+      ecmaVersion: 2018,
+      sourceType: "module",
     },
-    "plugins": [
-        "react"
-    ],
-    "ignorePatterns": ["*.test.js"],
-    "rules": {
-        'react/react-in-jsx-scope': 'off'
-    }
-}
+    plugins: ["react", "import", "react-hooks"],
+    ignorePatterns: ["node_modules/"],
+    rules: {
+      "react/react-in-jsx-scope": "off"
+    },
+    settings: {
+      react: {
+        version: "17.0.2",
+      },
+    },
+  };
