@@ -21,7 +21,7 @@ function App() {
         </a>
         <TestWs/>
       </header>
-      <div>app test text</div>
+      <div>new b</div>
     </div>
   );
 }
