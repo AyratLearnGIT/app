@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import TestWs from "./testWS";
+
+import TestA from "./testA";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         >
           Learn React
         </a>
-        <TestWs/>
+        <TestA/>
       </header>
       <div>new b</div>
     </div>
