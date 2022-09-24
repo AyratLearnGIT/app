@@ -4,6 +4,7 @@ const TestWs = () => {
     return (
         <div>
             test ws
+            <div>inside</div>
         </div>
     );
 };
