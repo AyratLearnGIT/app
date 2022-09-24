@@ -21,6 +21,7 @@ function App() {
         </a>
         <TestWs/>
       </header>
+      <div>app test text</div>
     </div>
   );
 }
